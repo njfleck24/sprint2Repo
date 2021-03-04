@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+sklearn = "*"
+notebook = "*"
+matplotlib = "*"
+plotly = "*"
+statsmodels = "*"
+category-encoders = "*"
+xgboost = "*"
+pdpbox = "*"
+pandas-profiling = "*"
+eli5 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
